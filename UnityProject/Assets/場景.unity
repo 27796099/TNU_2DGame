@@ -259,7 +259,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &288170963
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,9 +272,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6669d75b1ff0b8543b5389e6e19f687e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3.5
+  speed: 7
   jumpHigh: 300
   name: RR
+  r2d: {fileID: 288170962}
+  ani: {fileID: 288170958}
 --- !u!1 &1022157174
 GameObject:
   m_ObjectHideFlags: 0
